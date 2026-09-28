@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<title>سامانه مدیریت و ردیابی کارکنان، منابع و پروژه‌ها</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ============ Login Screen ============ -->
+<div id="login-screen" class="login-screen"></div>
+
+<!-- ============ App Shell ============ -->
+<div id="app" class="app hidden">
+  <aside id="sidebar" class="sidebar"></aside>
+  <div class="main">
+    <header id="header" class="header"></header>
+    <main id="content" class="content" role="main"></main>
+  </div>
+  <div id="sidebar-backdrop" class="sidebar-backdrop"></div>
+</div>
+
+<!-- ============ Floating Layers ============ -->
+<div id="modal-root" class="modal-root" aria-hidden="true"></div>
+<div id="drawer-root" class="drawer-root" aria-hidden="true"></div>
+<div id="toast-root" class="toast-root" aria-live="polite"></div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
